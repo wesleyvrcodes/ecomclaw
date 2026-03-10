@@ -1,0 +1,13 @@
+{
+  "name": "openclaw-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "openai": "^6.27.0"
+  }
+}

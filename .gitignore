@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+.turbo/
+dist/
+bin/
+obj/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Production.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test results
+test-results/
+
+# TypeScript build info
+*.tsbuildinfo
+

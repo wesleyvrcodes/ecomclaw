@@ -1,0 +1,17 @@
+{
+  "name": "clawcommerce",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "packageManager": "npm@11.8.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "audit": "npm audit --workspaces",
+    "audit:fix": "npm audit fix --workspaces",
+    "postinstall": "npm audit --audit-level=high || true"
+  },
+  "devDependencies": {
+    "turbo": "^2"
+  }
+}
